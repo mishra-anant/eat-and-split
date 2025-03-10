@@ -129,16 +129,18 @@ form {
 
 label {
   font-weight: 500;
+  display: flex;
 }
 
 label::first-letter {
-  display: inline-block;
+  display: flex;
   margin-right: 4px;
   font-size: 1.8rem;
 }
 
 input,
 select {
+  display: flex;
   font-family: inherit;
   color: inherit;
   font-size: 1.5rem;
